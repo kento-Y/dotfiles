@@ -1,0 +1,4 @@
+export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
+
+SHELL=$SSHHOME/bashsshrc
+alias tmux="tmux -S /tmp/russelltmuxserver"
